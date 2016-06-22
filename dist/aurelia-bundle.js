@@ -19,7 +19,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("github:aurelia-ui-toolkits/aurelia-v-grid@master/index", ["exports", "npm:aurelia-framework@1.0.0-beta.2.0.1", "github:aurelia-ui-toolkits/aurelia-v-grid@master/config-builder"], function(exports, _aureliaFramework, _configBuilder) {
+define("github:aurelia-ui-toolkits/aurelia-v-grid@master/index", ["exports", "npm:aurelia-framework@1.0.0-rc.1.0.0", "github:aurelia-ui-toolkits/aurelia-v-grid@master/config-builder"], function(exports, _aureliaFramework, _configBuilder) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.configure = configure;
@@ -603,7 +603,7 @@ System.registerDynamic("github:systemjs/plugin-css@0.1.23", ["github:systemjs/pl
 
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-router@1.0.0-beta.2.0.3/route-href", ["exports", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-router@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-logging@1.0.0-beta.2.0.1"], function(exports, _aureliaTemplating, _aureliaDependencyInjection, _aureliaRouter, _aureliaPal, _aureliaLogging) {
+define("npm:aurelia-templating-router@1.0.0-rc.1.0.0/route-href", ["exports", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-router@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-logging@1.0.0-rc.1.0.0"], function(exports, _aureliaTemplating, _aureliaDependencyInjection, _aureliaRouter, _aureliaPal, _aureliaLogging) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.RouteHref = undefined;
@@ -677,7 +677,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-router@1.0.0-beta.2.0.3/router-view", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-router@1.0.0-beta.2.0.1", "npm:aurelia-metadata@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaRouter, _aureliaMetadata, _aureliaPal) {
+define("npm:aurelia-templating-router@1.0.0-rc.1.0.0/router-view", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-router@1.0.0-rc.1.0.0", "npm:aurelia-metadata@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaRouter, _aureliaMetadata, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.RouterView = undefined;
@@ -876,7 +876,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-router@1.0.0-beta.2.0.3/route-loader", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-router@1.0.0-beta.2.0.1", "npm:aurelia-path@1.0.0-beta.2.0.1", "npm:aurelia-metadata@1.0.0-beta.2.0.1"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaRouter, _aureliaPath, _aureliaMetadata) {
+define("npm:aurelia-templating-router@1.0.0-rc.1.0.0/route-loader", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-router@1.0.0-rc.1.0.0", "npm:aurelia-path@1.0.0-rc.1.0.0", "npm:aurelia-metadata@1.0.0-rc.1.0.0"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaRouter, _aureliaPath, _aureliaMetadata) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.TemplatingRouteLoader = undefined;
@@ -933,7 +933,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-router@1.0.0-beta.2.0.3/aurelia-templating-router", ["exports", "npm:aurelia-router@1.0.0-beta.2.0.1", "npm:aurelia-templating-router@1.0.0-beta.2.0.3/route-loader", "npm:aurelia-templating-router@1.0.0-beta.2.0.3/router-view", "npm:aurelia-templating-router@1.0.0-beta.2.0.3/route-href"], function(exports, _aureliaRouter, _routeLoader, _routerView, _routeHref) {
+define("npm:aurelia-templating-router@1.0.0-rc.1.0.0/aurelia-templating-router", ["exports", "npm:aurelia-router@1.0.0-rc.1.0.0", "npm:aurelia-templating-router@1.0.0-rc.1.0.0/route-loader", "npm:aurelia-templating-router@1.0.0-rc.1.0.0/router-view", "npm:aurelia-templating-router@1.0.0-rc.1.0.0/route-href"], function(exports, _aureliaRouter, _routeLoader, _routerView, _routeHref) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.configure = exports.RouteHref = exports.RouterView = exports.TemplatingRouteLoader = undefined;
@@ -951,7 +951,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-router@1.0.0-beta.2.0.3", ["npm:aurelia-templating-router@1.0.0-beta.2.0.3/aurelia-templating-router"], function(main) {
+define("npm:aurelia-templating-router@1.0.0-rc.1.0.0", ["npm:aurelia-templating-router@1.0.0-rc.1.0.0/aurelia-templating-router"], function(main) {
   return main;
 });
 
@@ -959,7 +959,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/dynamic-element", ["exports", "npm:aurelia-templating@1.0.0-beta.3.0.6"], function(exports, _aureliaTemplating) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/dynamic-element", ["exports", "npm:aurelia-templating@1.0.0-rc.1.0.0"], function(exports, _aureliaTemplating) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports._createDynamicElement = _createDynamicElement;
@@ -986,7 +986,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/html-resource-plugin", ["exports", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/dynamic-element"], function(exports, _aureliaTemplating, _dynamicElement) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/html-resource-plugin", ["exports", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/dynamic-element"], function(exports, _aureliaTemplating, _dynamicElement) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.getElementName = getElementName;
@@ -1020,7 +1020,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/update-trigger-binding-behavior", ["exports", "npm:aurelia-binding@1.0.0-beta.2.0.7"], function(exports, _aureliaBinding) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/update-trigger-binding-behavior", ["exports", "npm:aurelia-binding@1.0.0-rc.1.0.0"], function(exports, _aureliaBinding) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.UpdateTriggerBindingBehavior = undefined;
@@ -1065,7 +1065,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/binding-signaler", ["exports", "npm:aurelia-binding@1.0.0-beta.2.0.7"], function(exports, _aureliaBinding) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/binding-signaler", ["exports", "npm:aurelia-binding@1.0.0-rc.1.0.0"], function(exports, _aureliaBinding) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.BindingSignaler = undefined;
@@ -1091,7 +1091,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/signal-binding-behavior", ["exports", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/binding-signaler"], function(exports, _bindingSignaler) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/signal-binding-behavior", ["exports", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/binding-signaler"], function(exports, _bindingSignaler) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.SignalBindingBehavior = undefined;
@@ -1148,7 +1148,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/debounce-binding-behavior", ["exports", "npm:aurelia-binding@1.0.0-beta.2.0.7"], function(exports, _aureliaBinding) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/debounce-binding-behavior", ["exports", "npm:aurelia-binding@1.0.0-rc.1.0.0"], function(exports, _aureliaBinding) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.DebounceBindingBehavior = undefined;
@@ -1199,7 +1199,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/throttle-binding-behavior", ["exports", "npm:aurelia-binding@1.0.0-beta.2.0.7"], function(exports, _aureliaBinding) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/throttle-binding-behavior", ["exports", "npm:aurelia-binding@1.0.0-rc.1.0.0"], function(exports, _aureliaBinding) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.ThrottleBindingBehavior = undefined;
@@ -1257,7 +1257,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/binding-mode-behaviors", ["exports", "npm:aurelia-binding@1.0.0-beta.2.0.7", "npm:aurelia-metadata@1.0.0-beta.2.0.1"], function(exports, _aureliaBinding, _aureliaMetadata) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/binding-mode-behaviors", ["exports", "npm:aurelia-binding@1.0.0-rc.1.0.0", "npm:aurelia-metadata@1.0.0-rc.1.0.0"], function(exports, _aureliaBinding, _aureliaMetadata) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.TwoWayBindingBehavior = exports.OneWayBindingBehavior = exports.OneTimeBindingBehavior = undefined;
@@ -1292,7 +1292,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/css-resource", ["exports", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-loader@1.0.0-beta.2.0.1", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-path@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaTemplating, _aureliaLoader, _aureliaDependencyInjection, _aureliaPath, _aureliaPal) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/css-resource", ["exports", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-loader@1.0.0-rc.1.0.0", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-path@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaTemplating, _aureliaLoader, _aureliaDependencyInjection, _aureliaPath, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports._createCSSResource = _createCSSResource;
@@ -1395,7 +1395,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/focus", ["exports", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-binding@1.0.0-beta.2.0.7", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-task-queue@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaTemplating, _aureliaBinding, _aureliaDependencyInjection, _aureliaTaskQueue, _aureliaPal) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/focus", ["exports", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-binding@1.0.0-rc.1.0.0", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-task-queue@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaTemplating, _aureliaBinding, _aureliaDependencyInjection, _aureliaTaskQueue, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Focus = undefined;
@@ -1459,7 +1459,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/replaceable", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-templating@1.0.0-beta.3.0.6"], function(exports, _aureliaDependencyInjection, _aureliaTemplating) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/replaceable", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0"], function(exports, _aureliaDependencyInjection, _aureliaTemplating) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Replaceable = undefined;
@@ -1490,7 +1490,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/html-sanitizer", ["exports"], function(exports) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/html-sanitizer", ["exports"], function(exports) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   var SCRIPT_REGEX = /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi;
@@ -1507,7 +1507,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/sanitize-html", ["exports", "npm:aurelia-binding@1.0.0-beta.2.0.7", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/html-sanitizer"], function(exports, _aureliaBinding, _aureliaDependencyInjection, _htmlSanitizer) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/sanitize-html", ["exports", "npm:aurelia-binding@1.0.0-rc.1.0.0", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/html-sanitizer"], function(exports, _aureliaBinding, _aureliaDependencyInjection, _htmlSanitizer) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.SanitizeHTMLValueConverter = undefined;
@@ -1532,7 +1532,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/hide", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/aurelia-hide-style"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaPal, _aureliaHideStyle) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/hide", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/aurelia-hide-style"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaPal, _aureliaHideStyle) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Hide = undefined;
@@ -1566,7 +1566,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/aurelia-hide-style", ["exports", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaPal) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/aurelia-hide-style", ["exports", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.aureliaHideClassName = undefined;
@@ -1589,7 +1589,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/show", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/aurelia-hide-style"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaPal, _aureliaHideStyle) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/show", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/aurelia-hide-style"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaPal, _aureliaHideStyle) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Show = undefined;
@@ -1623,7 +1623,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/abstract-repeater", ["exports"], function(exports) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/abstract-repeater", ["exports"], function(exports) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   var AbstractRepeater = exports.AbstractRepeater = function() {
@@ -1674,7 +1674,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/analyze-view-factory", ["exports"], function(exports) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/analyze-view-factory", ["exports"], function(exports) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.viewsRequireLifecycle = viewsRequireLifecycle;
@@ -1724,7 +1724,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/number-repeat-strategy", ["exports", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-utilities"], function(exports, _repeatUtilities) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/number-repeat-strategy", ["exports", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-utilities"], function(exports, _repeatUtilities) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.NumberRepeatStrategy = undefined;
@@ -1775,7 +1775,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/set-repeat-strategy", ["exports", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-utilities"], function(exports, _repeatUtilities) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/set-repeat-strategy", ["exports", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-utilities"], function(exports, _repeatUtilities) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.SetRepeatStrategy = undefined;
@@ -1863,7 +1863,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/map-repeat-strategy", ["exports", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-utilities"], function(exports, _repeatUtilities) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/map-repeat-strategy", ["exports", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-utilities"], function(exports, _repeatUtilities) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.MapRepeatStrategy = undefined;
@@ -1963,7 +1963,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-utilities", ["exports", "npm:aurelia-binding@1.0.0-beta.2.0.7"], function(exports, _aureliaBinding) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-utilities", ["exports", "npm:aurelia-binding@1.0.0-rc.1.0.0"], function(exports, _aureliaBinding) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.updateOverrideContexts = updateOverrideContexts;
@@ -2057,7 +2057,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/array-repeat-strategy", ["exports", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-utilities", "npm:aurelia-binding@1.0.0-beta.2.0.7"], function(exports, _repeatUtilities, _aureliaBinding) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/array-repeat-strategy", ["exports", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-utilities", "npm:aurelia-binding@1.0.0-rc.1.0.0"], function(exports, _repeatUtilities, _aureliaBinding) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.ArrayRepeatStrategy = undefined;
@@ -2264,7 +2264,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/null-repeat-strategy", ["exports"], function(exports) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/null-repeat-strategy", ["exports"], function(exports) {
   "use strict";
   Object.defineProperty(exports, "__esModule", {value: true});
   var NullRepeatStrategy = exports.NullRepeatStrategy = function() {
@@ -2281,7 +2281,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-strategy-locator", ["exports", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/null-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/array-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/map-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/set-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/number-repeat-strategy"], function(exports, _nullRepeatStrategy, _arrayRepeatStrategy, _mapRepeatStrategy, _setRepeatStrategy, _numberRepeatStrategy) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-strategy-locator", ["exports", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/null-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/array-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/map-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/set-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/number-repeat-strategy"], function(exports, _nullRepeatStrategy, _arrayRepeatStrategy, _mapRepeatStrategy, _setRepeatStrategy, _numberRepeatStrategy) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.RepeatStrategyLocator = undefined;
@@ -2327,7 +2327,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-binding@1.0.0-beta.2.0.7", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-strategy-locator", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-utilities", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/analyze-view-factory", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/abstract-repeater"], function(exports, _aureliaDependencyInjection, _aureliaBinding, _aureliaTemplating, _repeatStrategyLocator, _repeatUtilities, _analyzeViewFactory, _abstractRepeater) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-binding@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-strategy-locator", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-utilities", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/analyze-view-factory", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/abstract-repeater"], function(exports, _aureliaDependencyInjection, _aureliaBinding, _aureliaTemplating, _repeatStrategyLocator, _repeatUtilities, _analyzeViewFactory, _abstractRepeater) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Repeat = undefined;
@@ -2602,7 +2602,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/with", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-binding@1.0.0-beta.2.0.7"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaBinding) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/with", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-binding@1.0.0-rc.1.0.0"], function(exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaBinding) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.With = undefined;
@@ -2644,7 +2644,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/if", ["exports", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1"], function(exports, _aureliaTemplating, _aureliaDependencyInjection) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/if", ["exports", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0"], function(exports, _aureliaTemplating, _aureliaDependencyInjection) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.If = undefined;
@@ -2739,7 +2739,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/compose", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-task-queue@1.0.0-beta.2.0.1", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaDependencyInjection, _aureliaTaskQueue, _aureliaTemplating, _aureliaPal) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/compose", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-task-queue@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaDependencyInjection, _aureliaTaskQueue, _aureliaTemplating, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Compose = undefined;
@@ -2906,7 +2906,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4/aurelia-templating-resources", ["exports", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/compose", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/if", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/with", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/show", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/hide", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/sanitize-html", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/replaceable", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/focus", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/css-resource", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/html-sanitizer", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/binding-mode-behaviors", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/throttle-binding-behavior", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/debounce-binding-behavior", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/signal-binding-behavior", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/binding-signaler", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/update-trigger-binding-behavior", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/abstract-repeater", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-strategy-locator", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/html-resource-plugin", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/null-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/array-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/map-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/set-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/number-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/repeat-utilities", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/analyze-view-factory", "npm:aurelia-templating-resources@1.0.0-beta.3.0.4/aurelia-hide-style"], function(exports, _compose, _if, _with, _repeat, _show, _hide, _sanitizeHtml, _replaceable, _focus, _aureliaTemplating, _cssResource, _htmlSanitizer, _bindingModeBehaviors, _throttleBindingBehavior, _debounceBindingBehavior, _signalBindingBehavior, _bindingSignaler, _updateTriggerBindingBehavior, _abstractRepeater, _repeatStrategyLocator, _htmlResourcePlugin, _nullRepeatStrategy, _arrayRepeatStrategy, _mapRepeatStrategy, _setRepeatStrategy, _numberRepeatStrategy, _repeatUtilities, _analyzeViewFactory, _aureliaHideStyle) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0/aurelia-templating-resources", ["exports", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/compose", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/if", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/with", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/show", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/hide", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/sanitize-html", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/replaceable", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/focus", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/css-resource", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/html-sanitizer", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/binding-mode-behaviors", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/throttle-binding-behavior", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/debounce-binding-behavior", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/signal-binding-behavior", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/binding-signaler", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/update-trigger-binding-behavior", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/abstract-repeater", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-strategy-locator", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/html-resource-plugin", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/null-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/array-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/map-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/set-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/number-repeat-strategy", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/repeat-utilities", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/analyze-view-factory", "npm:aurelia-templating-resources@1.0.0-rc.1.0.0/aurelia-hide-style"], function(exports, _compose, _if, _with, _repeat, _show, _hide, _sanitizeHtml, _replaceable, _focus, _aureliaTemplating, _cssResource, _htmlSanitizer, _bindingModeBehaviors, _throttleBindingBehavior, _debounceBindingBehavior, _signalBindingBehavior, _bindingSignaler, _updateTriggerBindingBehavior, _abstractRepeater, _repeatStrategyLocator, _htmlResourcePlugin, _nullRepeatStrategy, _arrayRepeatStrategy, _mapRepeatStrategy, _setRepeatStrategy, _numberRepeatStrategy, _repeatUtilities, _analyzeViewFactory, _aureliaHideStyle) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.viewsRequireLifecycle = exports.unwrapExpression = exports.updateOneTimeBinding = exports.isOneTime = exports.getItemsSourceExpression = exports.updateOverrideContext = exports.createFullOverrideContext = exports.NumberRepeatStrategy = exports.SetRepeatStrategy = exports.MapRepeatStrategy = exports.ArrayRepeatStrategy = exports.NullRepeatStrategy = exports.RepeatStrategyLocator = exports.AbstractRepeater = exports.UpdateTriggerBindingBehavior = exports.BindingSignaler = exports.SignalBindingBehavior = exports.DebounceBindingBehavior = exports.ThrottleBindingBehavior = exports.TwoWayBindingBehavior = exports.OneWayBindingBehavior = exports.OneTimeBindingBehavior = exports.configure = exports.Focus = exports.Replaceable = exports.SanitizeHTMLValueConverter = exports.HTMLSanitizer = exports.Hide = exports.Show = exports.Repeat = exports.With = exports.If = exports.Compose = undefined;
@@ -2959,7 +2959,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-resources@1.0.0-beta.3.0.4", ["npm:aurelia-templating-resources@1.0.0-beta.3.0.4/aurelia-templating-resources"], function(main) {
+define("npm:aurelia-templating-resources@1.0.0-rc.1.0.0", ["npm:aurelia-templating-resources@1.0.0-rc.1.0.0/aurelia-templating-resources"], function(main) {
   return main;
 });
 
@@ -2967,7 +2967,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-binding@1.0.0-beta.2.0.2/aurelia-templating-binding", ["exports", "npm:aurelia-logging@1.0.0-beta.2.0.1", "npm:aurelia-binding@1.0.0-beta.2.0.7", "npm:aurelia-templating@1.0.0-beta.3.0.6"], function(exports, _aureliaLogging, _aureliaBinding, _aureliaTemplating) {
+define("npm:aurelia-templating-binding@1.0.0-rc.1.0.0/aurelia-templating-binding", ["exports", "npm:aurelia-logging@1.0.0-rc.1.0.0", "npm:aurelia-binding@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0"], function(exports, _aureliaLogging, _aureliaBinding, _aureliaTemplating) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.TemplatingBindingLanguage = exports.SyntaxInterpreter = exports.ChildInterpolationBinding = exports.InterpolationBinding = exports.InterpolationBindingExpression = exports.AttributeMap = undefined;
@@ -3518,7 +3518,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating-binding@1.0.0-beta.2.0.2", ["npm:aurelia-templating-binding@1.0.0-beta.2.0.2/aurelia-templating-binding"], function(main) {
+define("npm:aurelia-templating-binding@1.0.0-rc.1.0.0", ["npm:aurelia-templating-binding@1.0.0-rc.1.0.0/aurelia-templating-binding"], function(main) {
   return main;
 });
 
@@ -3526,7 +3526,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-router@1.0.0-beta.2.0.1/aurelia-router", ["exports", "npm:aurelia-logging@1.0.0-beta.2.0.1", "npm:aurelia-route-recognizer@1.0.0-beta.2.0.1", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-history@1.0.0-beta.2.0.1", "npm:aurelia-event-aggregator@1.0.0-beta.2.0.1"], function(exports, _aureliaLogging, _aureliaRouteRecognizer, _aureliaDependencyInjection, _aureliaHistory, _aureliaEventAggregator) {
+define("npm:aurelia-router@1.0.0-rc.1.0.0/aurelia-router", ["exports", "npm:aurelia-logging@1.0.0-rc.1.0.0", "npm:aurelia-route-recognizer@1.0.0-rc.1.0.0", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-history@1.0.0-rc.1.0.0", "npm:aurelia-event-aggregator@1.0.0-rc.1.0.0"], function(exports, _aureliaLogging, _aureliaRouteRecognizer, _aureliaDependencyInjection, _aureliaHistory, _aureliaEventAggregator) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.AppRouter = exports.PipelineProvider = exports.LoadRouteStep = exports.RouteLoader = exports.ActivateNextStep = exports.DeactivatePreviousStep = exports.CanActivateNextStep = exports.CanDeactivatePreviousStep = exports.Router = exports.BuildNavigationPlanStep = exports.activationStrategy = exports.RouterConfiguration = exports.RedirectToRoute = exports.Redirect = exports.NavModel = exports.NavigationInstruction = exports.CommitChangesStep = exports.Pipeline = exports.pipelineStatus = undefined;
@@ -4974,7 +4974,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-router@1.0.0-beta.2.0.1", ["npm:aurelia-router@1.0.0-beta.2.0.1/aurelia-router"], function(main) {
+define("npm:aurelia-router@1.0.0-rc.1.0.0", ["npm:aurelia-router@1.0.0-rc.1.0.0/aurelia-router"], function(main) {
   return main;
 });
 
@@ -4982,7 +4982,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-route-recognizer@1.0.0-beta.2.0.1/aurelia-route-recognizer", ["exports", "npm:aurelia-path@1.0.0-beta.2.0.1"], function(exports, _aureliaPath) {
+define("npm:aurelia-route-recognizer@1.0.0-rc.1.0.0/aurelia-route-recognizer", ["exports", "npm:aurelia-path@1.0.0-rc.1.0.0"], function(exports, _aureliaPath) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.RouteRecognizer = exports.EpsilonSegment = exports.StarSegment = exports.DynamicSegment = exports.StaticSegment = exports.State = undefined;
@@ -5371,7 +5371,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-route-recognizer@1.0.0-beta.2.0.1", ["npm:aurelia-route-recognizer@1.0.0-beta.2.0.1/aurelia-route-recognizer"], function(main) {
+define("npm:aurelia-route-recognizer@1.0.0-rc.1.0.0", ["npm:aurelia-route-recognizer@1.0.0-rc.1.0.0/aurelia-route-recognizer"], function(main) {
   return main;
 });
 
@@ -5379,7 +5379,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-logging-console@1.0.0-beta.2.0.1/aurelia-logging-console", ["exports", "npm:aurelia-logging@1.0.0-beta.2.0.1"], function(exports, _aureliaLogging) {
+define("npm:aurelia-logging-console@1.0.0-rc.1.0.0/aurelia-logging-console", ["exports", "npm:aurelia-logging@1.0.0-rc.1.0.0"], function(exports, _aureliaLogging) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.ConsoleAppender = undefined;
@@ -5429,7 +5429,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-logging-console@1.0.0-beta.2.0.1", ["npm:aurelia-logging-console@1.0.0-beta.2.0.1/aurelia-logging-console"], function(main) {
+define("npm:aurelia-logging-console@1.0.0-rc.1.0.0", ["npm:aurelia-logging-console@1.0.0-rc.1.0.0/aurelia-logging-console"], function(main) {
   return main;
 });
 
@@ -5437,7 +5437,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-loader-default@1.0.0-beta.2.0.2/aurelia-loader-default", ["exports", "npm:aurelia-loader@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-metadata@1.0.0-beta.2.0.1"], function(exports, _aureliaLoader, _aureliaPal, _aureliaMetadata) {
+define("npm:aurelia-loader-default@1.0.0-rc.1.0.0/aurelia-loader-default", ["exports", "npm:aurelia-loader@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-metadata@1.0.0-rc.1.0.0"], function(exports, _aureliaLoader, _aureliaPal, _aureliaMetadata) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.DefaultLoader = exports.TextTemplateLoader = undefined;
@@ -5637,7 +5637,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-loader-default@1.0.0-beta.2.0.2", ["npm:aurelia-loader-default@1.0.0-beta.2.0.2/aurelia-loader-default"], function(main) {
+define("npm:aurelia-loader-default@1.0.0-rc.1.0.0", ["npm:aurelia-loader-default@1.0.0-rc.1.0.0/aurelia-loader-default"], function(main) {
   return main;
 });
 
@@ -5645,7 +5645,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-http-client@1.0.0-beta.2.0.1/aurelia-http-client", ["exports", "npm:aurelia-path@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaPath, _aureliaPal) {
+define("npm:aurelia-http-client@1.0.0-rc.1.0.0/aurelia-http-client", ["exports", "npm:aurelia-path@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaPath, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.HttpClient = exports.RequestBuilder = exports.HttpRequestMessage = exports.JSONPRequestMessage = exports.RequestMessageProcessor = exports.mimeTypes = exports.HttpResponseMessage = exports.RequestMessage = exports.Headers = undefined;
@@ -6306,7 +6306,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-http-client@1.0.0-beta.2.0.1", ["npm:aurelia-http-client@1.0.0-beta.2.0.1/aurelia-http-client"], function(main) {
+define("npm:aurelia-http-client@1.0.0-rc.1.0.0", ["npm:aurelia-http-client@1.0.0-rc.1.0.0/aurelia-http-client"], function(main) {
   return main;
 });
 
@@ -6314,7 +6314,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-history-browser@1.0.0-beta.2.0.1/aurelia-history-browser", ["exports", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-history@1.0.0-beta.2.0.1"], function(exports, _aureliaPal, _aureliaHistory) {
+define("npm:aurelia-history-browser@1.0.0-rc.1.0.0/aurelia-history-browser", ["exports", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-history@1.0.0-rc.1.0.0"], function(exports, _aureliaPal, _aureliaHistory) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.BrowserHistory = exports.DefaultLinkHandler = exports.LinkHandler = undefined;
@@ -6559,7 +6559,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-history-browser@1.0.0-beta.2.0.1", ["npm:aurelia-history-browser@1.0.0-beta.2.0.1/aurelia-history-browser"], function(main) {
+define("npm:aurelia-history-browser@1.0.0-rc.1.0.0", ["npm:aurelia-history-browser@1.0.0-rc.1.0.0/aurelia-history-browser"], function(main) {
   return main;
 });
 
@@ -6567,7 +6567,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-history@1.0.0-beta.2.0.1/aurelia-history", ["exports"], function(exports) {
+define("npm:aurelia-history@1.0.0-rc.1.0.0/aurelia-history", ["exports"], function(exports) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   function mi(name) {
@@ -6601,7 +6601,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-history@1.0.0-beta.2.0.1", ["npm:aurelia-history@1.0.0-beta.2.0.1/aurelia-history"], function(main) {
+define("npm:aurelia-history@1.0.0-rc.1.0.0", ["npm:aurelia-history@1.0.0-rc.1.0.0/aurelia-history"], function(main) {
   return main;
 });
 
@@ -6609,7 +6609,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-loader@1.0.0-beta.2.0.1/aurelia-loader", ["exports", "npm:aurelia-path@1.0.0-beta.2.0.1", "npm:aurelia-metadata@1.0.0-beta.2.0.1"], function(exports, _aureliaPath, _aureliaMetadata) {
+define("npm:aurelia-loader@1.0.0-rc.1.0.0/aurelia-loader", ["exports", "npm:aurelia-path@1.0.0-rc.1.0.0", "npm:aurelia-metadata@1.0.0-rc.1.0.0"], function(exports, _aureliaPath, _aureliaMetadata) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Loader = exports.TemplateRegistryEntry = exports.TemplateDependency = undefined;
@@ -6733,7 +6733,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-loader@1.0.0-beta.2.0.1", ["npm:aurelia-loader@1.0.0-beta.2.0.1/aurelia-loader"], function(main) {
+define("npm:aurelia-loader@1.0.0-rc.1.0.0", ["npm:aurelia-loader@1.0.0-rc.1.0.0/aurelia-loader"], function(main) {
   return main;
 });
 
@@ -6741,7 +6741,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-path@1.0.0-beta.2.0.1/aurelia-path", ["exports"], function(exports) {
+define("npm:aurelia-path@1.0.0-rc.1.0.0/aurelia-path", ["exports"], function(exports) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.relativeToFile = relativeToFile;
@@ -6930,7 +6930,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-path@1.0.0-beta.2.0.1", ["npm:aurelia-path@1.0.0-beta.2.0.1/aurelia-path"], function(main) {
+define("npm:aurelia-path@1.0.0-rc.1.0.0", ["npm:aurelia-path@1.0.0-rc.1.0.0/aurelia-path"], function(main) {
   return main;
 });
 
@@ -6938,7 +6938,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports", "npm:aurelia-logging@1.0.0-beta.2.0.1", "npm:aurelia-metadata@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-path@1.0.0-beta.2.0.1", "npm:aurelia-loader@1.0.0-beta.2.0.1", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-binding@1.0.0-beta.2.0.7", "npm:aurelia-task-queue@1.0.0-beta.2.0.1"], function(exports, _aureliaLogging, _aureliaMetadata, _aureliaPal, _aureliaPath, _aureliaLoader, _aureliaDependencyInjection, _aureliaBinding, _aureliaTaskQueue) {
+define("npm:aurelia-templating@1.0.0-rc.1.0.0/aurelia-templating", ["exports", "npm:aurelia-logging@1.0.0-rc.1.0.0", "npm:aurelia-metadata@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-path@1.0.0-rc.1.0.0", "npm:aurelia-loader@1.0.0-rc.1.0.0", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-binding@1.0.0-rc.1.0.0", "npm:aurelia-task-queue@1.0.0-rc.1.0.0"], function(exports, _aureliaLogging, _aureliaMetadata, _aureliaPal, _aureliaPath, _aureliaLoader, _aureliaDependencyInjection, _aureliaBinding, _aureliaTaskQueue) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.TemplatingEngine = exports.ElementConfigResource = exports.CompositionEngine = exports.HtmlBehaviorResource = exports.BindableProperty = exports.BehaviorPropertyObserver = exports.Controller = exports.ViewEngine = exports.ModuleAnalyzer = exports.ResourceDescription = exports.ResourceModule = exports.ViewCompiler = exports.ViewFactory = exports.BoundViewFactory = exports.ViewSlot = exports.View = exports.ViewResources = exports.ShadowDOM = exports.ShadowSlot = exports.PassThroughSlot = exports.SlotCustomAttribute = exports.BindingLanguage = exports.ViewLocator = exports.InlineViewStrategy = exports.TemplateRegistryViewStrategy = exports.NoViewStrategy = exports.ConventionalViewStrategy = exports.RelativeViewStrategy = exports.viewStrategy = exports.TargetInstruction = exports.BehaviorInstruction = exports.ViewCompileInstruction = exports.ResourceLoadContext = exports.ElementEvents = exports.ViewEngineHooksResource = exports.CompositionTransaction = exports.CompositionTransactionOwnershipToken = exports.CompositionTransactionNotifier = exports.Animator = exports.animationEvent = undefined;
@@ -6998,35 +6998,35 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return Constructor;
     };
   }();
-  var _class3,
+  var _class4,
       _temp,
       _dec,
-      _class4,
-      _dec2,
       _class5,
-      _dec3,
+      _dec2,
       _class6,
-      _dec4,
+      _dec3,
       _class7,
-      _dec5,
+      _dec4,
       _class8,
+      _dec5,
       _class9,
+      _class10,
       _temp2,
       _dec6,
-      _class10,
       _class11,
+      _class12,
       _temp3,
-      _class13,
+      _class14,
       _dec7,
-      _class15,
-      _dec8,
       _class16,
+      _dec8,
+      _class17,
       _dec9,
-      _class18,
-      _dec10,
       _class19,
+      _dec10,
+      _class20,
       _dec11,
-      _class20;
+      _class21;
   var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function(obj) {
     return typeof obj;
   } : function(obj) {
@@ -7328,7 +7328,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     return BehaviorInstruction;
   }();
   BehaviorInstruction.normal = new BehaviorInstruction();
-  var TargetInstruction = exports.TargetInstruction = (_temp = _class3 = function() {
+  var TargetInstruction = exports.TargetInstruction = (_temp = _class4 = function() {
     TargetInstruction.shadowSlot = function shadowSlot(parentInjectorId) {
       var instruction = new TargetInstruction();
       instruction.parentInjectorId = parentInjectorId;
@@ -7386,7 +7386,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       this.values = null;
     }
     return TargetInstruction;
-  }(), _class3.noExpressions = Object.freeze([]), _temp);
+  }(), _class4.noExpressions = Object.freeze([]), _temp);
   var viewStrategy = exports.viewStrategy = _aureliaMetadata.protocol.create('aurelia:view-strategy', {
     validate: function validate(target) {
       if (!(typeof target.loadViewFactory === 'function')) {
@@ -7400,7 +7400,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       }
     }
   });
-  var RelativeViewStrategy = exports.RelativeViewStrategy = (_dec = viewStrategy(), _dec(_class4 = function() {
+  var RelativeViewStrategy = exports.RelativeViewStrategy = (_dec = viewStrategy(), _dec(_class5 = function() {
     function RelativeViewStrategy(path) {
       this.path = path;
       this.absolutePath = null;
@@ -7418,8 +7418,8 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       }
     };
     return RelativeViewStrategy;
-  }()) || _class4);
-  var ConventionalViewStrategy = exports.ConventionalViewStrategy = (_dec2 = viewStrategy(), _dec2(_class5 = function() {
+  }()) || _class5);
+  var ConventionalViewStrategy = exports.ConventionalViewStrategy = (_dec2 = viewStrategy(), _dec2(_class6 = function() {
     function ConventionalViewStrategy(viewLocator, origin) {
       this.moduleId = origin.moduleId;
       this.viewUrl = viewLocator.convertOriginToViewUrl(origin);
@@ -7429,15 +7429,15 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return viewEngine.loadViewFactory(this.viewUrl, compileInstruction, loadContext);
     };
     return ConventionalViewStrategy;
-  }()) || _class5);
-  var NoViewStrategy = exports.NoViewStrategy = (_dec3 = viewStrategy(), _dec3(_class6 = function() {
+  }()) || _class6);
+  var NoViewStrategy = exports.NoViewStrategy = (_dec3 = viewStrategy(), _dec3(_class7 = function() {
     function NoViewStrategy() {}
     NoViewStrategy.prototype.loadViewFactory = function loadViewFactory(viewEngine, compileInstruction, loadContext) {
       return Promise.resolve(null);
     };
     return NoViewStrategy;
-  }()) || _class6);
-  var TemplateRegistryViewStrategy = exports.TemplateRegistryViewStrategy = (_dec4 = viewStrategy(), _dec4(_class7 = function() {
+  }()) || _class7);
+  var TemplateRegistryViewStrategy = exports.TemplateRegistryViewStrategy = (_dec4 = viewStrategy(), _dec4(_class8 = function() {
     function TemplateRegistryViewStrategy(moduleId, entry) {
       this.moduleId = moduleId;
       this.entry = entry;
@@ -7451,8 +7451,8 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return viewEngine.loadViewFactory(entry, compileInstruction, loadContext);
     };
     return TemplateRegistryViewStrategy;
-  }()) || _class7);
-  var InlineViewStrategy = exports.InlineViewStrategy = (_dec5 = viewStrategy(), _dec5(_class8 = function() {
+  }()) || _class8);
+  var InlineViewStrategy = exports.InlineViewStrategy = (_dec5 = viewStrategy(), _dec5(_class9 = function() {
     function InlineViewStrategy(markup, dependencies, dependencyBaseUrl) {
       this.markup = markup;
       this.dependencies = dependencies || null;
@@ -7481,8 +7481,8 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return viewEngine.loadViewFactory(entry, compileInstruction, loadContext);
     };
     return InlineViewStrategy;
-  }()) || _class8);
-  var ViewLocator = exports.ViewLocator = (_temp2 = _class9 = function() {
+  }()) || _class9);
+  var ViewLocator = exports.ViewLocator = (_temp2 = _class10 = function() {
     function ViewLocator() {}
     ViewLocator.prototype.getViewStrategy = function getViewStrategy(value) {
       if (!value) {
@@ -7530,7 +7530,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return id + '.html';
     };
     return ViewLocator;
-  }(), _class9.viewStrategyMetadataKey = 'aurelia:view-strategy', _temp2);
+  }(), _class10.viewStrategyMetadataKey = 'aurelia:view-strategy', _temp2);
   function mi(name) {
     throw new Error('BindingLanguage must implement ' + name + '().');
   }
@@ -7548,14 +7548,14 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     return BindingLanguage;
   }();
   var noNodes = Object.freeze([]);
-  var SlotCustomAttribute = exports.SlotCustomAttribute = (_dec6 = (0, _aureliaDependencyInjection.inject)(_aureliaPal.DOM.Element), _dec6(_class10 = function() {
+  var SlotCustomAttribute = exports.SlotCustomAttribute = (_dec6 = (0, _aureliaDependencyInjection.inject)(_aureliaPal.DOM.Element), _dec6(_class11 = function() {
     function SlotCustomAttribute(element) {
       this.element = element;
       this.element.auSlotAttribute = this;
     }
     SlotCustomAttribute.prototype.valueChanged = function valueChanged(newValue, oldValue) {};
     return SlotCustomAttribute;
-  }()) || _class10);
+  }()) || _class11);
   var PassThroughSlot = exports.PassThroughSlot = function() {
     function PassThroughSlot(anchor, name, destinationName, fallbackFactory) {
       this.anchor = anchor;
@@ -7831,7 +7831,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     }]);
     return ShadowSlot;
   }();
-  var ShadowDOM = exports.ShadowDOM = (_temp3 = _class11 = function() {
+  var ShadowDOM = exports.ShadowDOM = (_temp3 = _class12 = function() {
     function ShadowDOM() {}
     ShadowDOM.getSlotName = function getSlotName(node) {
       if (node.auSlotAttribute === undefined) {
@@ -7904,7 +7904,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       }
     };
     return ShadowDOM;
-  }(), _class11.defaultSlotKey = '__au-default-slot-key__', _temp3);
+  }(), _class12.defaultSlotKey = '__au-default-slot-key__', _temp3);
   function register(lookup, name, resource, type) {
     if (!name) {
       return;
@@ -8550,14 +8550,14 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     };
     return ViewSlot;
   }();
-  var ProviderResolver = (0, _aureliaDependencyInjection.resolver)(_class13 = function() {
+  var ProviderResolver = (0, _aureliaDependencyInjection.resolver)(_class14 = function() {
     function ProviderResolver() {}
     ProviderResolver.prototype.get = function get(container, key) {
       var id = key.__providerId__;
       return id in container ? container[id] : container[id] = container.invoke(key);
     };
     return ProviderResolver;
-  }()) || _class13;
+  }()) || _class14;
   var providerResolverInstance = new ProviderResolver();
   function elementContainerGet(key) {
     if (key === _aureliaPal.DOM.Element) {
@@ -8909,7 +8909,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     instructions[auTargetID] = instruction;
     return auShadowSlot;
   }
-  var ViewCompiler = exports.ViewCompiler = (_dec7 = (0, _aureliaDependencyInjection.inject)(BindingLanguage, ViewResources), _dec7(_class15 = function() {
+  var ViewCompiler = exports.ViewCompiler = (_dec7 = (0, _aureliaDependencyInjection.inject)(BindingLanguage, ViewResources), _dec7(_class16 = function() {
     function ViewCompiler(bindingLanguage, resources) {
       this.bindingLanguage = bindingLanguage;
       this.resources = resources;
@@ -9216,7 +9216,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return node.nextSibling;
     };
     return ViewCompiler;
-  }()) || _class15);
+  }()) || _class16);
   var ResourceModule = exports.ResourceModule = function() {
     function ResourceModule(moduleId) {
       this.id = moduleId;
@@ -9434,7 +9434,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     }]);
     return ProxyViewFactory;
   }();
-  var ViewEngine = exports.ViewEngine = (_dec8 = (0, _aureliaDependencyInjection.inject)(_aureliaLoader.Loader, _aureliaDependencyInjection.Container, ViewCompiler, ModuleAnalyzer, ViewResources), _dec8(_class16 = function() {
+  var ViewEngine = exports.ViewEngine = (_dec8 = (0, _aureliaDependencyInjection.inject)(_aureliaLoader.Loader, _aureliaDependencyInjection.Container, ViewCompiler, ModuleAnalyzer, ViewResources), _dec8(_class17 = function() {
     function ViewEngine(loader, container, viewCompiler, moduleAnalyzer, appResources) {
       this.loader = loader;
       this.container = container;
@@ -9555,7 +9555,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return id;
     };
     return ViewEngine;
-  }()) || _class16);
+  }()) || _class17);
   var Controller = exports.Controller = function() {
     function Controller(behavior, instruction, viewModel, elementEvents) {
       this.behavior = behavior;
@@ -9690,7 +9690,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     };
     return Controller;
   }();
-  var BehaviorPropertyObserver = exports.BehaviorPropertyObserver = (_dec9 = (0, _aureliaBinding.subscriberCollection)(), _dec9(_class18 = function() {
+  var BehaviorPropertyObserver = exports.BehaviorPropertyObserver = (_dec9 = (0, _aureliaBinding.subscriberCollection)(), _dec9(_class19 = function() {
     function BehaviorPropertyObserver(taskQueue, obj, propertyName, selfSubscriber, initialValue) {
       this.taskQueue = taskQueue;
       this.obj = obj;
@@ -9734,7 +9734,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       this.removeSubscriber(context, callable);
     };
     return BehaviorPropertyObserver;
-  }()) || _class18);
+  }()) || _class19);
   function getObserver(behavior, instance, name) {
     var lookup = instance.__observers__;
     if (lookup === undefined) {
@@ -10422,7 +10422,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     }
     return context.viewModel.activate(context.model) || Promise.resolve();
   }
-  var CompositionEngine = exports.CompositionEngine = (_dec10 = (0, _aureliaDependencyInjection.inject)(ViewEngine, ViewLocator), _dec10(_class19 = function() {
+  var CompositionEngine = exports.CompositionEngine = (_dec10 = (0, _aureliaDependencyInjection.inject)(ViewEngine, ViewLocator), _dec10(_class20 = function() {
     function CompositionEngine(viewEngine, viewLocator) {
       this.viewEngine = viewEngine;
       this.viewLocator = viewLocator;
@@ -10537,7 +10537,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return Promise.resolve(null);
     };
     return CompositionEngine;
-  }()) || _class19);
+  }()) || _class20);
   var ElementConfigResource = exports.ElementConfigResource = function() {
     function ElementConfigResource() {}
     ElementConfigResource.prototype.initialize = function initialize(container, target) {};
@@ -10676,7 +10676,7 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
     };
     return target ? deco(target) : deco;
   }
-  var TemplatingEngine = exports.TemplatingEngine = (_dec11 = (0, _aureliaDependencyInjection.inject)(_aureliaDependencyInjection.Container, ModuleAnalyzer, ViewCompiler, CompositionEngine), _dec11(_class20 = function() {
+  var TemplatingEngine = exports.TemplatingEngine = (_dec11 = (0, _aureliaDependencyInjection.inject)(_aureliaDependencyInjection.Container, ModuleAnalyzer, ViewCompiler, CompositionEngine), _dec11(_class21 = function() {
     function TemplatingEngine(container, moduleAnalyzer, viewCompiler, compositionEngine) {
       this._container = container;
       this._moduleAnalyzer = moduleAnalyzer;
@@ -10705,14 +10705,14 @@ define("npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating", ["exports",
       return view;
     };
     return TemplatingEngine;
-  }()) || _class20);
+  }()) || _class21);
 });
 
 _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-templating@1.0.0-beta.3.0.6", ["npm:aurelia-templating@1.0.0-beta.3.0.6/aurelia-templating"], function(main) {
+define("npm:aurelia-templating@1.0.0-rc.1.0.0", ["npm:aurelia-templating@1.0.0-rc.1.0.0/aurelia-templating"], function(main) {
   return main;
 });
 
@@ -10720,7 +10720,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-framework@1.0.0-beta.2.0.1/aurelia-framework", ["exports", "npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", "npm:aurelia-binding@1.0.0-beta.2.0.7", "npm:aurelia-metadata@1.0.0-beta.2.0.1", "npm:aurelia-templating@1.0.0-beta.3.0.6", "npm:aurelia-loader@1.0.0-beta.2.0.1", "npm:aurelia-task-queue@1.0.0-beta.2.0.1", "npm:aurelia-path@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-logging@1.0.0-beta.2.0.1"], function(exports, _aureliaDependencyInjection, _aureliaBinding, _aureliaMetadata, _aureliaTemplating, _aureliaLoader, _aureliaTaskQueue, _aureliaPath, _aureliaPal, _aureliaLogging) {
+define("npm:aurelia-framework@1.0.0-rc.1.0.0/aurelia-framework", ["exports", "npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", "npm:aurelia-binding@1.0.0-rc.1.0.0", "npm:aurelia-metadata@1.0.0-rc.1.0.0", "npm:aurelia-templating@1.0.0-rc.1.0.0", "npm:aurelia-loader@1.0.0-rc.1.0.0", "npm:aurelia-task-queue@1.0.0-rc.1.0.0", "npm:aurelia-path@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-logging@1.0.0-rc.1.0.0"], function(exports, _aureliaDependencyInjection, _aureliaBinding, _aureliaMetadata, _aureliaTemplating, _aureliaLoader, _aureliaTaskQueue, _aureliaPath, _aureliaPal, _aureliaLogging) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.LogManager = exports.FrameworkConfiguration = exports.Aurelia = undefined;
@@ -11203,7 +11203,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-framework@1.0.0-beta.2.0.1", ["npm:aurelia-framework@1.0.0-beta.2.0.1/aurelia-framework"], function(main) {
+define("npm:aurelia-framework@1.0.0-rc.1.0.0", ["npm:aurelia-framework@1.0.0-rc.1.0.0/aurelia-framework"], function(main) {
   return main;
 });
 
@@ -11211,7 +11211,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-fetch-client@1.0.0-beta.2.0.1/aurelia-fetch-client", ["exports"], function(exports) {
+define("npm:aurelia-fetch-client@1.0.0-rc.1.0.0/aurelia-fetch-client", ["exports"], function(exports) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.json = json;
@@ -11419,7 +11419,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-fetch-client@1.0.0-beta.2.0.1", ["npm:aurelia-fetch-client@1.0.0-beta.2.0.1/aurelia-fetch-client"], function(main) {
+define("npm:aurelia-fetch-client@1.0.0-rc.1.0.0", ["npm:aurelia-fetch-client@1.0.0-rc.1.0.0/aurelia-fetch-client"], function(main) {
   return main;
 });
 
@@ -11427,7 +11427,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-event-aggregator@1.0.0-beta.2.0.1/aurelia-event-aggregator", ["exports", "npm:aurelia-logging@1.0.0-beta.2.0.1"], function(exports, _aureliaLogging) {
+define("npm:aurelia-event-aggregator@1.0.0-rc.1.0.0/aurelia-event-aggregator", ["exports", "npm:aurelia-logging@1.0.0-rc.1.0.0"], function(exports, _aureliaLogging) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.EventAggregator = undefined;
@@ -11550,7 +11550,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-event-aggregator@1.0.0-beta.2.0.1", ["npm:aurelia-event-aggregator@1.0.0-beta.2.0.1/aurelia-event-aggregator"], function(main) {
+define("npm:aurelia-event-aggregator@1.0.0-rc.1.0.0", ["npm:aurelia-event-aggregator@1.0.0-rc.1.0.0/aurelia-event-aggregator"], function(main) {
   return main;
 });
 
@@ -11558,7 +11558,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-dependency-injection@1.0.0-beta.2.1.1/aurelia-dependency-injection", ["exports", "npm:aurelia-metadata@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaMetadata, _aureliaPal) {
+define("npm:aurelia-dependency-injection@1.0.0-rc.1.0.0/aurelia-dependency-injection", ["exports", "npm:aurelia-metadata@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaMetadata, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Container = exports.InvocationHandler = exports._emptyParameters = exports.SingletonRegistration = exports.TransientRegistration = exports.FactoryInvoker = exports.NewInstance = exports.Factory = exports.StrategyResolver = exports.Parent = exports.Optional = exports.All = exports.Lazy = exports.resolver = undefined;
@@ -12059,7 +12059,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-dependency-injection@1.0.0-beta.2.1.1", ["npm:aurelia-dependency-injection@1.0.0-beta.2.1.1/aurelia-dependency-injection"], function(main) {
+define("npm:aurelia-dependency-injection@1.0.0-rc.1.0.0", ["npm:aurelia-dependency-injection@1.0.0-rc.1.0.0/aurelia-dependency-injection"], function(main) {
   return main;
 });
 
@@ -12067,7 +12067,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-polyfills@1.0.0-beta.2.0.1/aurelia-polyfills", ["npm:aurelia-pal@1.0.0-beta.2.0.0"], function(_aureliaPal) {
+define("npm:aurelia-polyfills@1.0.0-rc.1.0.0/aurelia-polyfills", ["npm:aurelia-pal@1.0.0-rc.1.0.0"], function(_aureliaPal) {
   'use strict';
   var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function(obj) {
     return typeof obj;
@@ -12316,7 +12316,13 @@ define("npm:aurelia-polyfills@1.0.0-beta.2.0.1/aurelia-polyfills", ["npm:aurelia
   Number.isFinite = Number.isFinite || function(value) {
     return typeof value === "number" && isFinite(value);
   };
-  if (!String.prototype.endsWith) {
+  if (!String.prototype.endsWith || function() {
+    try {
+      return !"ab".endsWith("a", 1);
+    } catch (e) {
+      return true;
+    }
+  }()) {
     String.prototype.endsWith = function(searchString, position) {
       var subjectString = this.toString();
       if (typeof position !== 'number' || !isFinite(position) || Math.floor(position) !== position || position > subjectString.length) {
@@ -12327,7 +12333,13 @@ define("npm:aurelia-polyfills@1.0.0-beta.2.0.1/aurelia-polyfills", ["npm:aurelia
       return lastIndex !== -1 && lastIndex === position;
     };
   }
-  if (!String.prototype.startsWith) {
+  if (!String.prototype.startsWith || function() {
+    try {
+      return !"ab".startsWith("b", 1);
+    } catch (e) {
+      return true;
+    }
+  }()) {
     String.prototype.startsWith = function(searchString, position) {
       position = position || 0;
       return this.substr(position, searchString.length) === searchString;
@@ -12772,7 +12784,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-polyfills@1.0.0-beta.2.0.1", ["npm:aurelia-polyfills@1.0.0-beta.2.0.1/aurelia-polyfills"], function(main) {
+define("npm:aurelia-polyfills@1.0.0-rc.1.0.0", ["npm:aurelia-polyfills@1.0.0-rc.1.0.0/aurelia-polyfills"], function(main) {
   return main;
 });
 
@@ -12780,7 +12792,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-pal-browser@1.0.0-beta.3.0.1/aurelia-pal-browser", ["exports", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaPal) {
+define("npm:aurelia-pal-browser@1.0.0-rc.1.0.0/aurelia-pal-browser", ["exports", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports._PLATFORM = exports._DOM = exports._FEATURE = undefined;
@@ -13212,7 +13224,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-pal-browser@1.0.0-beta.3.0.1", ["npm:aurelia-pal-browser@1.0.0-beta.3.0.1/aurelia-pal-browser"], function(main) {
+define("npm:aurelia-pal-browser@1.0.0-rc.1.0.0", ["npm:aurelia-pal-browser@1.0.0-rc.1.0.0/aurelia-pal-browser"], function(main) {
   return main;
 });
 
@@ -13220,7 +13232,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-bootstrapper@1.0.0-beta.2.0.1/aurelia-bootstrapper", ["exports", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-pal-browser@1.0.0-beta.3.0.1", "npm:aurelia-polyfills@1.0.0-beta.2.0.1"], function(exports, _aureliaPal, _aureliaPalBrowser) {
+define("npm:aurelia-bootstrapper@1.0.0-rc.1.0.0/aurelia-bootstrapper", ["exports", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-pal-browser@1.0.0-rc.1.0.0", "npm:aurelia-polyfills@1.0.0-rc.1.0.0"], function(exports, _aureliaPal, _aureliaPalBrowser) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.bootstrap = bootstrap;
@@ -13346,7 +13358,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-bootstrapper@1.0.0-beta.2.0.1", ["npm:aurelia-bootstrapper@1.0.0-beta.2.0.1/aurelia-bootstrapper"], function(main) {
+define("npm:aurelia-bootstrapper@1.0.0-rc.1.0.0", ["npm:aurelia-bootstrapper@1.0.0-rc.1.0.0/aurelia-bootstrapper"], function(main) {
   return main;
 });
 
@@ -13354,7 +13366,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-metadata@1.0.0-beta.2.0.1/aurelia-metadata", ["exports", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaPal) {
+define("npm:aurelia-metadata@1.0.0-rc.1.0.0/aurelia-metadata", ["exports", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.Origin = exports.metadata = undefined;
@@ -13575,7 +13587,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-metadata@1.0.0-beta.2.0.1", ["npm:aurelia-metadata@1.0.0-beta.2.0.1/aurelia-metadata"], function(main) {
+define("npm:aurelia-metadata@1.0.0-rc.1.0.0", ["npm:aurelia-metadata@1.0.0-rc.1.0.0/aurelia-metadata"], function(main) {
   return main;
 });
 
@@ -13583,7 +13595,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-task-queue@1.0.0-beta.2.0.1/aurelia-task-queue", ["exports", "npm:aurelia-pal@1.0.0-beta.2.0.0"], function(exports, _aureliaPal) {
+define("npm:aurelia-task-queue@1.0.0-rc.1.0.0/aurelia-task-queue", ["exports", "npm:aurelia-pal@1.0.0-rc.1.0.0"], function(exports, _aureliaPal) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.TaskQueue = undefined;
@@ -13700,7 +13712,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-task-queue@1.0.0-beta.2.0.1", ["npm:aurelia-task-queue@1.0.0-beta.2.0.1/aurelia-task-queue"], function(main) {
+define("npm:aurelia-task-queue@1.0.0-rc.1.0.0", ["npm:aurelia-task-queue@1.0.0-rc.1.0.0/aurelia-task-queue"], function(main) {
   return main;
 });
 
@@ -13708,7 +13720,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-pal@1.0.0-beta.2.0.0/aurelia-pal", ["exports"], function(exports) {
+define("npm:aurelia-pal@1.0.0-rc.1.0.0/aurelia-pal", ["exports"], function(exports) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.AggregateError = AggregateError;
@@ -13776,7 +13788,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-pal@1.0.0-beta.2.0.0", ["npm:aurelia-pal@1.0.0-beta.2.0.0/aurelia-pal"], function(main) {
+define("npm:aurelia-pal@1.0.0-rc.1.0.0", ["npm:aurelia-pal@1.0.0-rc.1.0.0/aurelia-pal"], function(main) {
   return main;
 });
 
@@ -13784,7 +13796,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-logging@1.0.0-beta.2.0.1/aurelia-logging", ["exports"], function(exports) {
+define("npm:aurelia-logging@1.0.0-rc.1.0.0/aurelia-logging", ["exports"], function(exports) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.getLogger = getLogger;
@@ -13882,7 +13894,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-logging@1.0.0-beta.2.0.1", ["npm:aurelia-logging@1.0.0-beta.2.0.1/aurelia-logging"], function(main) {
+define("npm:aurelia-logging@1.0.0-rc.1.0.0", ["npm:aurelia-logging@1.0.0-rc.1.0.0/aurelia-logging"], function(main) {
   return main;
 });
 
@@ -13890,7 +13902,7 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-binding@1.0.0-beta.2.0.7/aurelia-binding", ["exports", "npm:aurelia-logging@1.0.0-beta.2.0.1", "npm:aurelia-pal@1.0.0-beta.2.0.0", "npm:aurelia-task-queue@1.0.0-beta.2.0.1", "npm:aurelia-metadata@1.0.0-beta.2.0.1"], function(exports, _aureliaLogging, _aureliaPal, _aureliaTaskQueue, _aureliaMetadata) {
+define("npm:aurelia-binding@1.0.0-rc.1.0.0/aurelia-binding", ["exports", "npm:aurelia-logging@1.0.0-rc.1.0.0", "npm:aurelia-pal@1.0.0-rc.1.0.0", "npm:aurelia-task-queue@1.0.0-rc.1.0.0", "npm:aurelia-metadata@1.0.0-rc.1.0.0"], function(exports, _aureliaLogging, _aureliaPal, _aureliaTaskQueue, _aureliaMetadata) {
   'use strict';
   Object.defineProperty(exports, "__esModule", {value: true});
   exports.getSetObserver = exports.BindingEngine = exports.NameExpression = exports.Listener = exports.ListenerExpression = exports.BindingBehaviorResource = exports.ValueConverterResource = exports.Call = exports.CallExpression = exports.Binding = exports.BindingExpression = exports.ObjectObservationAdapter = exports.ObserverLocator = exports.SVGAnalyzer = exports.presentationAttributes = exports.presentationElements = exports.elements = exports.ComputedExpression = exports.ClassObserver = exports.SelectValueObserver = exports.CheckedObserver = exports.ValueAttributeObserver = exports.StyleObserver = exports.DataAttributeObserver = exports.dataAttributeAccessor = exports.XLinkAttributeObserver = exports.SetterObserver = exports.PrimitiveObserver = exports.propertyAccessor = exports.DirtyCheckProperty = exports.DirtyChecker = exports.EventManager = exports.getMapObserver = exports.ParserImplementation = exports.Parser = exports.Scanner = exports.Lexer = exports.Token = exports.bindingMode = exports.ExpressionCloner = exports.Unparser = exports.LiteralObject = exports.LiteralArray = exports.LiteralString = exports.LiteralPrimitive = exports.PrefixNot = exports.Binary = exports.CallFunction = exports.CallMember = exports.CallScope = exports.AccessKeyed = exports.AccessMember = exports.AccessScope = exports.AccessThis = exports.Conditional = exports.Assign = exports.ValueConverter = exports.BindingBehavior = exports.Chain = exports.Expression = exports.getArrayObserver = exports.CollectionLengthObserver = exports.ModifyCollectionObserver = exports.ExpressionObserver = exports.sourceContext = undefined;
@@ -17264,8 +17276,8 @@ define("npm:aurelia-binding@1.0.0-beta.2.0.7/aurelia-binding", ["exports", "npm:
   function computedFrom() {
     for (var _len = arguments.length,
         rest = Array(_len),
-        _key = 0; _key < _len; _key++) {
-      rest[_key] = arguments[_key];
+        _key2 = 0; _key2 < _len; _key2++) {
+      rest[_key2] = arguments[_key2];
     }
     return function(target, key, descriptor) {
       descriptor.get.dependencies = rest;
@@ -17980,7 +17992,7 @@ define("npm:aurelia-binding@1.0.0-beta.2.0.7/aurelia-binding", ["exports", "npm:
   function getAU(element) {
     var au = element.au;
     if (au === undefined) {
-      throw new Error('No Aurelia APIs are defined for the referenced element.');
+      throw new Error('No Aurelia APIs are defined for the element: "' + element.tagName + '".');
     }
     return au;
   }
@@ -18178,39 +18190,38 @@ define("npm:aurelia-binding@1.0.0-beta.2.0.7/aurelia-binding", ["exports", "npm:
     };
     return ModifySetObserver;
   }(ModifyCollectionObserver);
-  function observable(targetOrConfig, key, descriptor) {
-    var deco = function deco(target, key2, descriptor2) {
-      var innerPropertyName = '_' + key2;
-      var callbackName = targetOrConfig && targetOrConfig.changeHandler || key2 + 'Changed';
-      var babel = descriptor2 !== undefined;
-      if (babel) {
-        if (typeof descriptor2.initializer === 'function') {
-          target[innerPropertyName] = descriptor2.initializer();
+  function observable(keyOrTargetOrConfig, _key, _descriptor) {
+    var deco = function deco(target, key, descriptor) {
+      if (!key) {
+        key = typeof keyOrTargetOrConfig === 'string' ? keyOrTargetOrConfig : keyOrTargetOrConfig.name;
+      }
+      var innerPropertyName = '_' + key;
+      var callbackName = keyOrTargetOrConfig && keyOrTargetOrConfig.changeHandler || key + 'Changed';
+      if (descriptor) {
+        if (typeof descriptor.initializer === 'function') {
+          target[innerPropertyName] = descriptor.initializer();
         }
       } else {
-        descriptor2 = {};
+        descriptor = {};
+        target = target.prototype;
       }
-      delete descriptor2.writable;
-      delete descriptor2.initializer;
-      descriptor2.get = function() {
+      delete descriptor.writable;
+      delete descriptor.initializer;
+      descriptor.get = function() {
         return this[innerPropertyName];
       };
-      descriptor2.set = function(newValue) {
+      descriptor.set = function(newValue) {
         var oldValue = this[innerPropertyName];
         this[innerPropertyName] = newValue;
         if (this[callbackName]) {
           this[callbackName](newValue, oldValue);
         }
       };
-      descriptor2.get.dependencies = [innerPropertyName];
-      if (!babel) {
-        Reflect.defineProperty(target, key2, descriptor2);
-      }
+      descriptor.get.dependencies = [innerPropertyName];
+      Reflect.defineProperty(target, key, descriptor);
     };
-    if (key) {
-      var target = targetOrConfig;
-      targetOrConfig = null;
-      return deco(target, key, descriptor);
+    if (_key) {
+      return deco(keyOrTargetOrConfig, _key, _descriptor);
     }
     return deco;
   }
@@ -18220,17 +18231,17 @@ _removeDefine();
 })();
 (function() {
 var _removeDefine = System.get("@@amd-helpers").createDefine();
-define("npm:aurelia-binding@1.0.0-beta.2.0.7", ["npm:aurelia-binding@1.0.0-beta.2.0.7/aurelia-binding"], function(main) {
+define("npm:aurelia-binding@1.0.0-rc.1.0.0", ["npm:aurelia-binding@1.0.0-rc.1.0.0/aurelia-binding"], function(main) {
   return main;
 });
 
 _removeDefine();
 })();
-System.register('src/zzzz.js', ['npm:aurelia-binding@1.0.0-beta.2.0.7', 'npm:aurelia-bootstrapper@1.0.0-beta.2.0.1', 'npm:aurelia-dependency-injection@1.0.0-beta.2.1.1', 'npm:aurelia-event-aggregator@1.0.0-beta.2.0.1', 'npm:aurelia-fetch-client@1.0.0-beta.2.0.1', 'npm:aurelia-framework@1.0.0-beta.2.0.1', 'npm:aurelia-history@1.0.0-beta.2.0.1', 'npm:aurelia-history-browser@1.0.0-beta.2.0.1', 'npm:aurelia-http-client@1.0.0-beta.2.0.1', 'npm:aurelia-loader@1.0.0-beta.2.0.1', 'npm:aurelia-loader-default@1.0.0-beta.2.0.2', 'npm:aurelia-logging@1.0.0-beta.2.0.1', 'npm:aurelia-logging-console@1.0.0-beta.2.0.1', 'npm:aurelia-metadata@1.0.0-beta.2.0.1', 'npm:aurelia-path@1.0.0-beta.2.0.1', 'npm:aurelia-polyfills@1.0.0-beta.2.0.1', 'npm:aurelia-route-recognizer@1.0.0-beta.2.0.1', 'npm:aurelia-router@1.0.0-beta.2.0.1', 'npm:aurelia-task-queue@1.0.0-beta.2.0.1', 'npm:aurelia-templating@1.0.0-beta.3.0.6', 'npm:aurelia-templating-binding@1.0.0-beta.2.0.2', 'npm:aurelia-templating-resources@1.0.0-beta.3.0.4', 'npm:aurelia-templating-router@1.0.0-beta.2.0.3', 'github:systemjs/plugin-css@0.1.23', 'github:github/fetch@1.0.0', 'github:systemjs/plugin-text@0.0.8', 'github:aurelia-ui-toolkits/aurelia-v-grid@master'], function (_export) {
+System.register('src/zzzz.js', ['npm:aurelia-binding@1.0.0-rc.1.0.0', 'npm:aurelia-bootstrapper@1.0.0-rc.1.0.0', 'npm:aurelia-dependency-injection@1.0.0-rc.1.0.0', 'npm:aurelia-event-aggregator@1.0.0-rc.1.0.0', 'npm:aurelia-fetch-client@1.0.0-rc.1.0.0', 'npm:aurelia-framework@1.0.0-rc.1.0.0', 'npm:aurelia-history@1.0.0-rc.1.0.0', 'npm:aurelia-history-browser@1.0.0-rc.1.0.0', 'npm:aurelia-http-client@1.0.0-rc.1.0.0', 'npm:aurelia-loader@1.0.0-rc.1.0.0', 'npm:aurelia-loader-default@1.0.0-rc.1.0.0', 'npm:aurelia-logging@1.0.0-rc.1.0.0', 'npm:aurelia-logging-console@1.0.0-rc.1.0.0', 'npm:aurelia-metadata@1.0.0-rc.1.0.0', 'npm:aurelia-path@1.0.0-rc.1.0.0', 'npm:aurelia-polyfills@1.0.0-rc.1.0.0', 'npm:aurelia-route-recognizer@1.0.0-rc.1.0.0', 'npm:aurelia-router@1.0.0-rc.1.0.0', 'npm:aurelia-task-queue@1.0.0-rc.1.0.0', 'npm:aurelia-templating@1.0.0-rc.1.0.0', 'npm:aurelia-templating-binding@1.0.0-rc.1.0.0', 'npm:aurelia-templating-resources@1.0.0-rc.1.0.0', 'npm:aurelia-templating-router@1.0.0-rc.1.0.0', 'github:systemjs/plugin-css@0.1.23', 'github:github/fetch@1.0.0', 'github:systemjs/plugin-text@0.0.8', 'github:aurelia-ui-toolkits/aurelia-v-grid@master'], function (_export) {
   'use strict';
 
   return {
-    setters: [function (_npmAureliaBinding100Beta207) {}, function (_npmAureliaBootstrapper100Beta201) {}, function (_npmAureliaDependencyInjection100Beta211) {}, function (_npmAureliaEventAggregator100Beta201) {}, function (_npmAureliaFetchClient100Beta201) {}, function (_npmAureliaFramework100Beta201) {}, function (_npmAureliaHistory100Beta201) {}, function (_npmAureliaHistoryBrowser100Beta201) {}, function (_npmAureliaHttpClient100Beta201) {}, function (_npmAureliaLoader100Beta201) {}, function (_npmAureliaLoaderDefault100Beta202) {}, function (_npmAureliaLogging100Beta201) {}, function (_npmAureliaLoggingConsole100Beta201) {}, function (_npmAureliaMetadata100Beta201) {}, function (_npmAureliaPath100Beta201) {}, function (_npmAureliaPolyfills100Beta201) {}, function (_npmAureliaRouteRecognizer100Beta201) {}, function (_npmAureliaRouter100Beta201) {}, function (_npmAureliaTaskQueue100Beta201) {}, function (_npmAureliaTemplating100Beta306) {}, function (_npmAureliaTemplatingBinding100Beta202) {}, function (_npmAureliaTemplatingResources100Beta304) {}, function (_npmAureliaTemplatingRouter100Beta203) {}, function (_githubSystemjsPluginCss0123) {}, function (_githubGithubFetch100) {}, function (_githubSystemjsPluginText008) {}, function (_githubAureliaUiToolkitsAureliaVGridMaster) {}],
+    setters: [function (_npmAureliaBinding100Rc100) {}, function (_npmAureliaBootstrapper100Rc100) {}, function (_npmAureliaDependencyInjection100Rc100) {}, function (_npmAureliaEventAggregator100Rc100) {}, function (_npmAureliaFetchClient100Rc100) {}, function (_npmAureliaFramework100Rc100) {}, function (_npmAureliaHistory100Rc100) {}, function (_npmAureliaHistoryBrowser100Rc100) {}, function (_npmAureliaHttpClient100Rc100) {}, function (_npmAureliaLoader100Rc100) {}, function (_npmAureliaLoaderDefault100Rc100) {}, function (_npmAureliaLogging100Rc100) {}, function (_npmAureliaLoggingConsole100Rc100) {}, function (_npmAureliaMetadata100Rc100) {}, function (_npmAureliaPath100Rc100) {}, function (_npmAureliaPolyfills100Rc100) {}, function (_npmAureliaRouteRecognizer100Rc100) {}, function (_npmAureliaRouter100Rc100) {}, function (_npmAureliaTaskQueue100Rc100) {}, function (_npmAureliaTemplating100Rc100) {}, function (_npmAureliaTemplatingBinding100Rc100) {}, function (_npmAureliaTemplatingResources100Rc100) {}, function (_npmAureliaTemplatingRouter100Rc100) {}, function (_githubSystemjsPluginCss0123) {}, function (_githubGithubFetch100) {}, function (_githubSystemjsPluginText008) {}, function (_githubAureliaUiToolkitsAureliaVGridMaster) {}],
     execute: function () {}
   };
 });
