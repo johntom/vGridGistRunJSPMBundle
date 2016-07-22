@@ -39,5 +39,24 @@ import 'text';
 
 ## bundle
 ```shell
-gulp build;jspm bundle zzzz dist/aurelia-bundle.js --inject;
+gulp build && jspm bundle src/zzzz dist/aurelia-bundle.js --inject
+```
+
+##updating:
+```shell`
+jspm update
+gulp build && jspm bundle src/zzzz dist/aurelia-bundle.js --inject
+```
+
+Replace "paths" (switch version number to upcomming number) and first 2 rows of bundles with this in the config, then release new version on github after you have pushed it
+```
+paths: {
+    "github:*": "https://cdn.rawgit.com/vegarringdal/vGridGistRunJSPMBundle/v.1.0.8/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/vegarringdal/vGridGistRunJSPMBundle/v.1.0.8/jspm_packages/npm/*",
+    "aurelia-bundle": "https://cdn.rawgit.com/vegarringdal/vGridGistRunJSPMBundle/v.1.0.8/dist/aurelia-bundle"
+  },
+  bundles: {
+    "aurelia-bundle": [
+      "src/zzzz.js",
+      
 ```
